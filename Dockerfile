@@ -10,7 +10,7 @@ LABEL maintainer="docker-dario@neomediatech.it" \
       org.label-schema.maintainer=Neomediatech
 
 RUN apt-get update && apt-get -y dist-upgrade ; \
-    apt-get -y install --no-install-recommends galera-arbitrator-3 ; \
+    apt-get -y install --no-install-recommends galera-arbitrator-4 ; \
     rm -rf /var/lib/apt/lists/*
 
 EXPOSE 4567
